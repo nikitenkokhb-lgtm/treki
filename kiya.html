@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сап-сплавы по рекам Хабаровского края и ЕАО</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        /* Простые отступы */
+        section {
+            margin: 30px 0;
+            padding: 15px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .routes-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .route-card {
+            border: 1px solid #ddd;
+            padding: 12px;
+            width: calc(33% - 20px);
+            box-sizing: border-box;
+        }
+        .features-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature-item {
+            border: 1px solid #eee;
+            padding: 10px;
+            width: calc(25% - 20px);
+        }
+        .form-group {
+            margin-bottom: 12px;
+        }
+        label, input, select, textarea {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 4px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 6px 16px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .route-img {
+            background-color: #e9ecef;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 8px;
+        }
+        h1, h2, h3 {
+            margin: 0.5em 0;
+        }
+        a {
+            color: #0066cc;
+        }
+        .badge {
+            font-size: 0.8rem;
+            color: #555;
+        }
+        hr {
+            margin: 20px 0;
+        }
+        @media (max-width: 800px) {
+            .route-card, .feature-item { width: calc(50% - 20px); }
+        }
+        @media (max-width: 500px) {
+            .route-card, .feature-item { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Шапка (простая) -->
+    <div style="background: #2c5a6b; color: white; padding: 12px 0; margin-bottom: 20px;">
+        <div class="container" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+            <strong>SUP маршруты по Хабаровскому краю и ЕАО</strong>
+            <div>
+                <a href="#link" style="color:white; margin:0 8px;">Полезные ссылки</a>
+                <a href="#safe" style="color:white; margin:0 8px;">Безопасность</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Герой / Заголовок -->
+    <section>
+        <h1>Треки для сплавов на сапе по реке Кия</h1>
+        <p>Живопискная узкая река. Подходит для новичков.</p>
+       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adfbb8e1be8a9a383e88c34c4f8b7239b53c3134bdc07c147710a7d9bb93fcdf2&amp;width=960&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+
+
+    <!-- Преимущества (кратко) -->
+    <section id="features">
+        <h2>Наши принципы</h2>
+        <div class="features-grid">
+            <div class="feature-item">✅ Безопасность: жилеты, страховка, опытные гиды.</div>
+            <div class="feature-item">🗺️ Продуманные маршруты по дальневосточным рекам.</div>
+            <div class="feature-item">🌿 Экологичность: не оставляем следов.</div>
+        </div>
+        <p>Внимание! Маршруты предоставляются в справочных целях. Ответственность за безопасность несут участники сплавов. Сложность маршрута зависит от уровня воды, сезона и скорости ветра. </p>
+    </section>
+
+ 
+    <!-- Контакты и футер -->
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p> ✉️ a.v.nikitenko@mail.ru</p>
+        <hr>
+        <p style="font-size: 0.85rem;">© 2026 SUP ДВ — сап-сплавы по рекам Хабаровского края и Еврейской автономной области.</p>
+    </section>
+</div>
+
+
+</body>
+</html>
